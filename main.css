@@ -4,11 +4,50 @@
 /*The heading one*/
 h1{
     padding: 100px;
+    margin: 0;
     /* color*/
     color: #200116;
     text-align: center;
     background-color: #D481AC;
 }
+body{
+    display: flex;
+    padding: 30px;
+    background-color: #F8EAF1;
+}
+
+/*Navigation*/
+nav{
+    width: 200px;
+    padding: 20px;
+    background-color: #200116;
+    min-height: 500px;
+}
+
+/* Navigation heading 2 */
+nav h2 {
+    color: white;
+    text-align: center;
+}
+
+/*The nav links */
+nav a {
+    display: block;
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #4C0827;
+}
+
+/*Changes the color when the mouse hovers over the content */
+nav a:hover {
+    background-color: #D481AC;
+    color: #200116;
+}
+
+
 /*Heading 2*/
 h2{
     padding: 0px;
