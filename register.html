@@ -1,0 +1,45 @@
+<!-- Farhiya Afrah -->
+<!--Boilerplate provided by VSCode-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- This is the  heading of the registration page -->
+    <h1>Create an Account</h1>
+
+    <!-- This sends the user's information to the /register -->
+    <form action="/register" method="POST">
+        <!-- label for the username field -->
+        <label for="username">Username:</label>
+        <!-- password field -->
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- email label -->
+        <label for="email">E-mail:</label>
+
+        <!-- accepts email address and checks format -->
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- password label -->
+        <label for="password">Password:</label>
+        <!-- hides password while the user is typing -->
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- submits the form to /register -->
+        <button type="submit">Register</button>
+    </form>
+
+    <!--link to login if user has an account already -->
+    <p>Already have an account? <a href="/login.html">Log in here</a></p>
+
+</body>
+</html>

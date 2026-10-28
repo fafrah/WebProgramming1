@@ -1,0 +1,46 @@
+<!-- Farhiya Afrah -->
+ 
+
+<!--Boilerplate provided by VSCode -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- login page main heading -->
+    <h1>Login to Your Account</h1>
+
+    <!-- sends username and password to the /login -->
+    <form action="/login" method="POST">
+
+        <!-- user types username -->
+        <label for="username">Username:</label>
+
+        <!-- username field -->
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <!-- where the user enters password -->
+        <label for="password">Password:</label>
+
+        <!-- hides password as the user is typing it -->
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- sends the form to /login  -->
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- link back to login -->
+    <p><a href="/login.html">Go back to the login page</a></p>
+
+    <!-- link to register if they don't have an account -->
+    <p>Don't have an account? <a href="/register.html">Register here</a></p>
+
+</body>
+</html>
